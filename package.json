@@ -1,0 +1,11 @@
+{
+  "name": "abiooc-olive-oil-company-website",
+  "version": "1.0.0",
+  "description": "olive oil e-commerce website using mern stack  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wassim abbessi",
+  "license": "ISC"
+}
