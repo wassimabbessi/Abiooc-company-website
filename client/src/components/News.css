@@ -1,0 +1,28 @@
+.news-container {
+  margin-top: 20px;
+}
+
+.news-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.news-item {
+  margin-top: 20px;
+}
+
+.news-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.news-description {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.news-date {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}

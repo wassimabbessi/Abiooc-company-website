@@ -1,0 +1,83 @@
+.footerPage {
+  background-image: url(bg60.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 5%;
+}
+
+.footerUpBlock {
+  display: flex;
+  justify-content: space-around;
+}
+.footerAbout {
+  width: 30%;
+}
+.footerSection {
+  margin-top: 5%;
+}
+.footerPar {
+  font-weight: 600;
+  color: #727489;
+  display: flex;
+  align-items: left;
+}
+.footerTitle {
+  margin-bottom: 5%;
+}
+.Copiright {
+  text-align: left;
+  color: #727489;
+  margin-top: 2%;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-left: 5%;
+}
+
+.footerLogo {
+  width: 80vh;
+  justify-content: left;
+}
+.footerSeparation {
+  border-color: #181829;
+  margin-top: 5%;
+}
+.footerInside {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.footercontactsLogo {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: left;
+  gap: 5%;
+}
+.footerContactOneLogo {
+  fill: #198754;
+  transition: all 0.3s ease;
+}
+.footerContactOneLogo:hover {
+  transform: scale(1.1);
+  fill: rgb(0, 0, 0);
+}
+@media (max-width: 768px) {
+  .footerUpBlock {
+    flex-direction: column;
+  }
+  .footertitleMargin {
+    margin-top: 20%;
+  }
+  .footerSection {
+    width: 100%;
+  }
+  .footerLogo {
+    width: 40vw;
+  }
+}

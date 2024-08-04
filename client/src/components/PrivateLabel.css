@@ -1,0 +1,113 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Styles for the wholesale button */
+.wholesale-button {
+  animation: slideInFromLeft 1s ease, fadeIn 0.5s ease;
+}
+
+/* Styles for the product name input */
+#productName {
+  border-color: #3cb371;
+  transition: all 0.3s ease-in-out;
+}
+
+#productName:focus {
+  border-color: #069b49;
+  box-shadow: 0 0 5px #3cb371;
+}
+
+/* Styles for the product category and size dropdowns */
+select {
+  color: #3cb371;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+select:focus {
+  border-color: #069b49;
+  box-shadow: 0 0 5px #3cb371;
+}
+
+/* Styles for the product image URL input */
+#productImage {
+  border-color: #3cb371;
+  transition: all 0.3s ease-in-out;
+}
+
+#productImage:focus {
+  border-color: #069b49;
+  box-shadow: 0 0 5px #3cb371;
+}
+
+/* Styles for the product notes textarea */
+#productNotes {
+  border-color: #3cb371;
+  transition: all 0.3s ease-in-out;
+}
+
+#productNotes:focus {
+  border-color: #069b49;
+  box-shadow: 0 0 5px #a9efc8;
+}
+
+/* Styles for the "Olive Oil Categories" section */
+#olive-oil-categories h2 {
+  color: #3cb371;
+  font-weight: bold;
+  animation: fadeIn 1s ease;
+}
+
+#olive-oil-categories p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0;
+  animation: fadeIn 1s ease;
+}
+
+/* Styles for the Private Label page background */
+/* Styles for the Private Label page background */
+.PrivateLabel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 105%;
+  height: 120%;
+  background-image: url('bg7070.png');
+  background-size: 105% 120%;
+  filter: blur(10px);
+  z-index: -1;
+  animation: fadeIn 2s ease;
+  margin-top: 350px;
+}
+
+/* Styles for the form labels */
+.form-label {
+  color: #268511;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  animation: fadeIn 0.5s ease;
+}
+
+.form-label:hover {
+  transform: scale(1.1);
+  color: #3cb371;
+}

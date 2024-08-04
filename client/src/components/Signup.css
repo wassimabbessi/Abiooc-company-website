@@ -1,0 +1,12 @@
+.signup-container {
+  background-image: url('bg7.jpg');
+  background-size: cover;
+}
+h1 {
+  color: aliceblue;
+  font-family: Helvetica;
+  font-size: 5em;
+}
+h5 {
+  color: aliceblue;
+}

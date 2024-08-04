@@ -1,0 +1,29 @@
+.award-image-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 40px auto; /* Adjust the margin as needed */
+}
+
+.award-image-text {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.award-image-subtext {
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+}
+
+.award-image {
+  display: block;
+  width: 100%;
+  max-height: 400px; /* Adjust the maximum height as needed */
+  object-fit: cover;
+  border-radius: 8px;
+}

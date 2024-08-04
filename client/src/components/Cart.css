@@ -1,0 +1,56 @@
+/* Cart.css */
+.cart-page {
+  margin: 4rem;
+}
+
+.jumbotron {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+.table {
+  margin-bottom: 2rem;
+}
+
+.img-thumbnail {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.border-left {
+  border-left: 1px solid #dee2e6;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.btn-lg {
+  padding: 0.75rem 2rem;
+  font-size: 1.125rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .col-md-4 {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,155 @@
+/* Desktop styles */
+
+.wholesale-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.wholesale-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  width: 50%;
+}
+
+.wholesale-image {
+  position: relative;
+  width: 32%;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.wholesale-image:hover {
+  transform: scale(1.05);
+}
+
+.wholesale-image.selected {
+  transform: scale(1.1);
+}
+
+.wholesale-image h3 {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  width: 80%;
+}
+
+.wholesale-info {
+  width: 45%;
+}
+
+.wholesale-info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.wholesale-info p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.wholesale-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.wholesale-info li {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrow-container svg {
+  font-size: 48px;
+  color: #6d4c41;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.arrow-container svg:hover {
+  transform: scale(1.1);
+}
+
+/* Tablet styles */
+
+@media (max-width: 991px) {
+  .wholesale-container {
+    padding: 30px 10px;
+  }
+
+  .wholesale-images {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .wholesale-image {
+    width: 48%;
+  }
+
+  .wholesale-info {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .wholesale-info h2 {
+    font-size: 28px;
+  }
+
+  .wholesale-info p {
+    font-size: 16px;
+  }
+
+  .wholesale-info li {
+    font-size: 16px;
+  }
+
+  .arrow-container {
+    justify-content: center;
+  }
+}
+
+/* Mobile styles */
+
+@media (max-width: 767px) {
+  .wholesale-container {
+    padding: 20px;
+  }
+
+  .wholesale-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .wholesale-image h3 {
+    font-size: 16px;
+  }
+
+  .wholesale-info {
+    width: 100%;
+  }
+}

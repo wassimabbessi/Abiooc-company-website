@@ -1,0 +1,19 @@
+.morph img {
+  width: 200px;
+  height: 150px;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.morph :hover img {
+  width: 150px; /* on affiche l'image au carré */
+  height: 150px;
+  border-radius: 50%; /* on arrondit l'image */
+  -webkit-transform: rotate(360deg); /* rotation de l'image */
+  transform: rotate(360deg);
+}
+.navbar-custom {
+  background-color: rgb(255, 255, 255);
+}
